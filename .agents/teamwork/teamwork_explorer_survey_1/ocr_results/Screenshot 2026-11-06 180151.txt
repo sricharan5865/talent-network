@@ -1,0 +1,33 @@
+﻿Your NVite details
+Designation
+Infrastructure Specialist
+Work mode
+In office
+Key skills
+Azure Certified
+Experience
+5 to 10
+Job location
+Hyderabad
+AWS Certified
+Oracle Certified
+Annual offered salary
+60,000
+to 1.5 lacs
+Job description
+We are looking for a skilled Infrastructure Specialist with strong expertise in cloud
+platforms such as Azure, AWS, or OCI, along with hands-on experience in networking and
+firewall man
+t. The ideal candidate should possess relevant cloud certifications,
+excellent communication skills, and the ability to manage and support IT infrastructure
+operations effectively.
+Roles & Responsibilities :
+Manage, monitor, and maintain cloud infrastructure across Azure, AWS or Oracle Cloud
+Infrastructure (OCI).
+Configure, troubleshoot, and maintain network infrastructure, including LAN, WAN, VPN,
+routing, and switching.
+Implement, manage, and troubleshoot firewall configurations, security policies, and
+access controls.
+ENG
+•O Help
+1801

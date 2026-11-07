@@ -1,0 +1,10 @@
+{
+  "description": "An AI-powered recruitment platform for employers, job seekers, and administrators to manage hiring, discover talent, track applications, and streamline recruiting workflows.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

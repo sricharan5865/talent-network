@@ -1,0 +1,42 @@
+﻿Keywords
+java
+Press 'Ctrl' while selecting a keyword to mark it mandatory
+Java
+Core Java
+Javascript
+J2Ee
+Javafx
+Java Developer
+Current location of candidate
+Add location
+Include candidates who preferto relocate to above locations
+Exclude candidates who have mentioned Anvwhere in... O
+Annual Salary
+Change preferred location
+Boolean off
+Search candidates
+aws, azure, oci I infrastructure, certified, "immediate joiner" I
+> = 4 years I Hyderabad
+Fill this search Search profiles
+IT, "rfp writer", "proposal writer" I Hyderabad
+Fill this search Search profiles
+"pre sales; presales, "pre-sales" I "software product:
+documentation 12-8 years I Hyderabad
+Fill this search Search profiles
+it products I rfq 11-5 years I Hyderabad
+Fill this search Search profiles
+O Saved Searches
+GIS Developer
+"GIS Developer", esri, html, javascript
+Fill this search
+10+ new profiles
+View all
+INR
+Min salary
+to
+Max salary
+Include candidates who did not mention their current salary
+Active in- 6 months v
+•O Help
+ENC
+1757

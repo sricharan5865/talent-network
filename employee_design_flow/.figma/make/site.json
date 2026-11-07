@@ -1,0 +1,10 @@
+{
+  "description": "A friendly chat interface for sending messages and connecting with others online.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

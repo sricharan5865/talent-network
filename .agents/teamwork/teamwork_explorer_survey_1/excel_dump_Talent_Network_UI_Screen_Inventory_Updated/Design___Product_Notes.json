@@ -1,0 +1,134 @@
+[
+  [
+    "Area",
+    "Requirement",
+    "Implementation guidance",
+    "Priority"
+  ],
+  [
+    "Information architecture",
+    "Role-based workspaces",
+    "Use one product shell with permission-aware navigation; avoid separate duplicated apps unless data isolation requires it.",
+    "P0"
+  ],
+  [
+    "Agentic AI",
+    "Agent action lifecycle",
+    "Model each agent task as intent → authorized context retrieval → plan → user review → approval → execution → verification → audit log.",
+    "P0"
+  ],
+  [
+    "Agentic AI",
+    "Human-in-the-loop",
+    "Require explicit approval for sending messages, submitting applications, publishing jobs, changing candidate stage, issuing offers, spending money, deleting data or other consequential actions.",
+    "P0"
+  ],
+  [
+    "Agentic AI",
+    "Transparency",
+    "Show AI-generated content labels, sources/evidence, confidence/limitations, tool actions and exact changes before execution.",
+    "P0"
+  ],
+  [
+    "Agentic AI",
+    "Permission inheritance",
+    "Agents must inherit the requesting user's permissions, tenant scope, consent rules and record-level access. No agent service account bypass.",
+    "P0"
+  ],
+  [
+    "Agentic AI",
+    "Reliability",
+    "Use idempotency keys, retries with limits, timeouts, tool result verification, rollback where possible and clear partial-failure states.",
+    "P0"
+  ],
+  [
+    "Agentic AI",
+    "Evaluation",
+    "Maintain task-specific evals for relevance, groundedness, fairness, privacy, tool correctness, latency and cost before model/prompt rollout.",
+    "P1"
+  ],
+  [
+    "Trust & safety",
+    "Fraud controls",
+    "Employer verification, job scam detection, candidate impersonation checks, abuse reporting, evidence retention and human appeals.",
+    "P0"
+  ],
+  [
+    "Trust & safety",
+    "Fair hiring",
+    "Do not infer protected traits; make ranking explainable; use job-related criteria; audit adverse impact where lawful and appropriate; retain human decision authority.",
+    "P0"
+  ],
+  [
+    "Privacy & compliance",
+    "India data protection",
+    "Design for India's DPDP framework: clear notice, purpose limitation, consent/other valid basis as applicable, data principal rights, security safeguards and grievance handling. Obtain legal review before launch.",
+    "P0"
+  ],
+  [
+    "Privacy & compliance",
+    "Data residency / retention",
+    "Make region, retention, deletion, export, legal hold and processor controls configurable; validate sector/customer requirements.",
+    "P1"
+  ],
+  [
+    "Accessibility",
+    "WCAG",
+    "Target WCAG 2.2 AA; keyboard access, contrast, focus, labels, error messaging, captions and accessible charts.",
+    "P0"
+  ],
+  [
+    "Localization",
+    "India-first experience",
+    "Support INR, Indian number formats, IST and other time zones, Indian cities/pincodes, English plus future Indian languages, mobile/low-bandwidth flows.",
+    "P0"
+  ],
+  [
+    "Marketplace quality",
+    "Job quality",
+    "Require structured role data, salary transparency where possible, location/work-mode clarity, expiry and employer verification.",
+    "P0"
+  ],
+  [
+    "Analytics",
+    "Metric definitions",
+    "Document numerator, denominator, cohort, attribution and time window for every KPI; suppress small cohorts where re-identification risk exists.",
+    "P1"
+  ],
+  [
+    "Security",
+    "Secure-by-default",
+    "RBAC + tenant isolation + record-level authorization; encryption in transit/at rest; secret management; rate limiting; audit logs; vulnerability testing.",
+    "P0"
+  ],
+  [
+    "UX system",
+    "State coverage",
+    "Every screen design must include loading, empty, error, success, permission denied, offline/partial failure and responsive states as relevant.",
+    "P0"
+  ],
+  [
+    "UX system",
+    "Design tokens",
+    "Define typography, spacing, colors, elevation, borders, status semantics, breakpoints and interaction patterns before high-fidelity screens.",
+    "P1"
+  ],
+  [
+    "Product delivery",
+    "Screen traceability",
+    "Give each screen a stable ID; link Figma frame, API contract, user story, event names, owner and acceptance criteria during implementation.",
+    "P0"
+  ],
+  [
+    "Commercial model",
+    "Monetization",
+    "Model employer plans, job credits, recruiter/agency seats, institution plans, promoted listings and partner rewards separately; avoid surprise charges.",
+    "P1"
+  ],
+  [
+    "Platform architecture",
+    "Event-driven workflows",
+    "Use domain events for application stage changes, interview scheduling, notifications, AI task lifecycle, billing and audit.",
+    "P1"
+  ]
+]

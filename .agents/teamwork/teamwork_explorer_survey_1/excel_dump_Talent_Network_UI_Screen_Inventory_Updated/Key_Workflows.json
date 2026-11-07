@@ -1,0 +1,123 @@
+[
+  [
+    "Workflow ID",
+    "Workflow",
+    "Actor(s)",
+    "Trigger",
+    "Happy path",
+    "Decision / exception paths",
+    "Agentic AI role",
+    "Human approval / control",
+    "Completion event / KPI"
+  ],
+  [
+    "WF-01",
+    "Candidate onboarding & profile activation",
+    "Candidate",
+    "New account created",
+    "Verify account → upload resume → parse → review extracted data → complete profile → set visibility → dashboard",
+    "Parsing failure; duplicate account; incomplete consent; candidate chooses private profile",
+    "Parse resume; suggest skills/headline; prioritize missing profile fields",
+    "Candidate confirms extracted facts and visibility",
+    "Profile activated; completion rate; time to complete"
+  ],
+  [
+    "WF-02",
+    "Job discovery to application",
+    "Candidate",
+    "Search or recommendation",
+    "Search/refine → inspect job → review match explanation → tailor application → preview → submit → confirmation",
+    "Job closed; eligibility mismatch; missing required answer; user cancels",
+    "Semantic search; match explanation; draft tailored materials",
+    "Candidate approves and submits application",
+    "Application submitted; apply conversion"
+  ],
+  [
+    "WF-03",
+    "Employer job creation & publication",
+    "Employer admin / recruiter",
+    "New hiring need",
+    "Create requisition → generate/edit JD → define criteria → set compensation → preview → verify policy → publish",
+    "Approval required; employer unverified; prohibited content; missing fields",
+    "Draft JD; bias/quality checks; recommend skills and channels",
+    "Employer approves content, budget and publication",
+    "Job live; time to publish; quality score"
+  ],
+  [
+    "WF-04",
+    "Candidate screening & shortlist",
+    "Recruiter / hiring manager",
+    "New application",
+    "Review evidence → compare against criteria → request info/assessment → shortlist → notify candidate",
+    "Insufficient evidence; duplicate; candidate withdraws; suspected fraud",
+    "Summarize evidence; map criteria; flag gaps; recommend review priority",
+    "Human makes shortlist/rejection decision; no opaque auto-reject",
+    "Stage changed; qualified rate; review SLA"
+  ],
+  [
+    "WF-05",
+    "Interview scheduling & feedback",
+    "Recruiter / candidate / interviewer",
+    "Candidate advances",
+    "Define panel/rubric → find availability → invite → confirm → conduct → scorecard → debrief",
+    "Reschedule; timezone conflict; no-show; accommodation request",
+    "Find calendar overlap; draft invite; prepare interview questions; summarize feedback",
+    "Organizer confirms invite; interviewer owns scorecard",
+    "Interview completed; feedback SLA; candidate experience"
+  ],
+  [
+    "WF-06",
+    "Offer to placement",
+    "Employer / candidate / recruiter",
+    "Final candidate selected",
+    "Prepare offer → validate terms → approvals → issue → candidate reviews → accept → placement record",
+    "Counteroffer; expiry; decline; approval rejection; start-date change",
+    "Populate approved template; explain compensation; track deadlines",
+    "Employer approver issues offer; candidate decides",
+    "Offer accepted; acceptance rate; placement start"
+  ],
+  [
+    "WF-07",
+    "Agency client requisition to fee",
+    "Agency recruiter / client",
+    "Client hiring request",
+    "Client intake → contract/terms → requisition → sourcing → shortlist → interviews → offer → start → fee invoice",
+    "Role paused; client changes criteria; candidate ownership dispute; replacement guarantee",
+    "Structure intake; source; deduplicate; summarize feedback; calculate contract fee",
+    "Client approves shortlist/offer; recruiter approves outreach and invoice",
+    "Placement; fee revenue; time-to-fill"
+  ],
+  [
+    "WF-08",
+    "Campus placement drive",
+    "Placement officer / employer / candidate",
+    "Employer drive announced",
+    "Create drive → set eligibility → publish to cohort → student consent/application → eligibility validation → shortlist → interviews → outcome",
+    "Ineligible student; consent withdrawn; drive cancelled",
+    "Validate rules; summarize readiness gaps; notify eligible cohort",
+    "Institution approves cohort sharing; employer decides hiring",
+    "Drive conversion; placement rate"
+  ],
+  [
+    "WF-09",
+    "Employer verification & moderation",
+    "Platform operations / admin",
+    "Signup, report or risk signal",
+    "Collect evidence → automated checks → queue → human review → decision → notify → appeal if applicable",
+    "Mismatch; suspected fraud; insufficient evidence; appeal",
+    "Extract document data; cluster signals; prioritize risk",
+    "Human makes approval/restriction decision; reason logged",
+    "Verification SLA; false-positive rate"
+  ],
+  [
+    "WF-10",
+    "AI agent action execution",
+    "Any role",
+    "User requests multi-step task",
+    "Interpret intent → clarify scope → retrieve authorized context → plan → show proposed actions → obtain approval → execute tools → verify outcome → log",
+    "Low confidence; missing permission; irreversible action; tool failure; conflicting data",
+    "Plan, retrieve, draft, execute approved reversible steps, verify results",
+    "Explicit approval for external, financial, irreversible or consequential actions",
+    "Task completion; tool success; rollback/error rate"
+  ]
+]

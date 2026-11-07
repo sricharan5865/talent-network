@@ -1,0 +1,211 @@
+[
+  [
+    "",
+    "TALENT NETWORK UI SCREEN INVENTORY - IMPLEMENTATION STATUS",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "Real-time engineering progress & screen inventory audit across all 9 roles and 108 screens.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "TOTAL SCREENS\n108\n100% of Catalog",
+    "",
+    "COMPLETED\n76\n70.4% Complete",
+    "",
+    "INCOMPLETE / IN PROGRESS\n17\n15.7% In Progress",
+    "",
+    "PENDING\n15\n13.9% In Backlog",
+    ""
+  ],
+  [
+    "",
+    "ROLE IMPLEMENTATION BREAKDOWN",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "Role Name",
+    "Total Screens",
+    "Completed",
+    "Incomplete",
+    "Pending",
+    "% Done",
+    "Primary Route / Module",
+    ""
+  ],
+  [
+    "",
+    "Candidate",
+    "26",
+    "22",
+    "3",
+    "1",
+    "84.6%",
+    "/candidate/* (Full Dashboard, Studio, Radar, Assistant)",
+    ""
+  ],
+  [
+    "",
+    "Employer / Company Admin",
+    "24",
+    "22",
+    "2",
+    "0",
+    "91.7%",
+    "/employer/* (Google-Style Dashboard, ATS Pipeline, Offers, Jobs)",
+    ""
+  ],
+  [
+    "",
+    "Platform Admin",
+    "15",
+    "8",
+    "7",
+    "0",
+    "53.3%",
+    "/admin/* (Overview, AI Agents, Subscriptions, Audit)",
+    ""
+  ],
+  [
+    "",
+    "All Roles (Shared)",
+    "10",
+    "7",
+    "3",
+    "0",
+    "70.0%",
+    "AppShell, /candidate/login, /employer/login, Onboarding",
+    ""
+  ],
+  [
+    "",
+    "Hiring Manager / Interviewer",
+    "6",
+    "3",
+    "3",
+    "0",
+    "50.0%",
+    "/employer/candidates, /employer/interviews (Scorecards & Review)",
+    ""
+  ],
+  [
+    "",
+    "Recruiter / Agency Recruiter",
+    "12",
+    "12",
+    "0",
+    "0",
+    "100.0%",
+    "/recruiter/* (Full Workspace, Mandates, AI Sourcing, Sequencer, Fees)",
+    ""
+  ],
+  [
+    "",
+    "Institution / Placement Officer",
+    "6",
+    "0",
+    "0",
+    "6",
+    "0.0%",
+    "/institution (Campus drives & cohorts - Pending)",
+    ""
+  ],
+  [
+    "",
+    "Platform Operations / Support",
+    "5",
+    "0",
+    "1",
+    "4",
+    "0.0%",
+    "/ops (Verification & Incident queues - Pending)",
+    ""
+  ],
+  [
+    "",
+    "Referral Partner",
+    "4",
+    "0",
+    "0",
+    "4",
+    "0.0%",
+    "/partner (Referrals & Rewards - Pending)",
+    ""
+  ],
+  [
+    "",
+    "Total",
+    "108",
+    "76",
+    "17",
+    "15",
+    "70.4%",
+    "65 Completed / 24 In Progress / 19 Backlog",
+    ""
+  ],
+  [
+    "",
+    "PRIORITY & RELEASE BREAKDOWN",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "Category",
+    "Total",
+    "Completed",
+    "Incomplete",
+    "Pending",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "P0 (MVP Essential)",
+    "105",
+    "65",
+    "23",
+    "17",
+    "",
+    "",
+    ""
+  ],
+  [
+    "",
+    "P1 (Release 1 Enhancements)",
+    "3",
+    "0",
+    "1",
+    "2",
+    "",
+    "",
+    ""
+  ]
+]

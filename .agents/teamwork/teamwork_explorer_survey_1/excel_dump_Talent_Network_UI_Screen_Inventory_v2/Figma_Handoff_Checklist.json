@@ -1,0 +1,93 @@
+[
+  [
+    "Checklist ID",
+    "Design / handoff item",
+    "What to specify",
+    "Owner",
+    "Status"
+  ],
+  [
+    "FG-01",
+    "Frame naming",
+    "Use Screen ID + screen name + role + breakpoint, e.g. TN-001 Candidate Dashboard Desktop.",
+    "Design",
+    "Not started"
+  ],
+  [
+    "FG-02",
+    "Flow links",
+    "Connect entry points, success paths, error paths, back navigation and deep links.",
+    "Design",
+    "Not started"
+  ],
+  [
+    "FG-03",
+    "Component mapping",
+    "Use shared components from UI Components sheet; document variants rather than duplicating components.",
+    "Design system",
+    "Not started"
+  ],
+  [
+    "FG-04",
+    "Responsive frames",
+    "Provide desktop, tablet and mobile layouts for P0 screens; document breakpoints and overflow behavior.",
+    "Design",
+    "Not started"
+  ],
+  [
+    "FG-05",
+    "State coverage",
+    "Include loading, empty, error, validation, permission denied, success, disabled and partial failure states.",
+    "Design",
+    "Not started"
+  ],
+  [
+    "FG-06",
+    "AI interaction states",
+    "Show assistant idle, thinking, plan, source citations, approval, tool execution, success, failure, retry and stop.",
+    "AI UX",
+    "Not started"
+  ],
+  [
+    "FG-07",
+    "Confirmation patterns",
+    "Show exact action, target, data changes, recipients, cost, reversibility and cancel path before execution.",
+    "Product / Design",
+    "Not started"
+  ],
+  [
+    "FG-08",
+    "Accessibility",
+    "Specify focus order, labels, keyboard interactions, contrast, error announcements and chart alternatives.",
+    "Design",
+    "Not started"
+  ],
+  [
+    "FG-09",
+    "Content & localization",
+    "Use realistic India-specific sample data; validate INR, phone, date/time, city and language formats.",
+    "Content design",
+    "Not started"
+  ],
+  [
+    "FG-10",
+    "Redaction & privacy",
+    "Show masked/restricted fields, consent states, visibility controls and data-sharing boundaries.",
+    "Product / Design",
+    "Not started"
+  ],
+  [
+    "FG-11",
+    "Developer annotations",
+    "Document validation, limits, sorting, filtering, permissions, analytics events and API dependencies.",
+    "Design / Engineering",
+    "Not started"
+  ],
+  [
+    "FG-12",
+    "Acceptance review",
+    "Review with product, engineering, QA, security, accessibility and legal/compliance stakeholders.",
+    "Cross-functional",
+    "Not started"
+  ]
+]

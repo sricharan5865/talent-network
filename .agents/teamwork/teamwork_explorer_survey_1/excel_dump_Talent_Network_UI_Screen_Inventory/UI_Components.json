@@ -1,0 +1,173 @@
+[
+  [
+    "Component ID",
+    "Component",
+    "Used by roles",
+    "Purpose",
+    "Required variants / states",
+    "Behavior & validation",
+    "Accessibility / responsive notes"
+  ],
+  [
+    "C-01",
+    "Global app shell",
+    "All authenticated roles",
+    "Consistent navigation, workspace identity and utilities",
+    "Desktop sidebar; mobile nav; collapsed; tenant switcher; notification badge",
+    "Role-aware nav; preserve route; session expiry handling",
+    "Landmarks, keyboard navigation, mobile drawer"
+  ],
+  [
+    "C-02",
+    "Role-aware sidebar",
+    "All authenticated roles",
+    "Expose only permitted modules",
+    "Expanded; collapsed; active; disabled; mobile",
+    "Permission-filtered navigation; active route highlight",
+    "Accessible labels; focus state"
+  ],
+  [
+    "C-03",
+    "Global search / command palette",
+    "All roles",
+    "Find entities and trigger permitted actions",
+    "Idle; suggestions; results; no results",
+    "Permission-aware results; keyboard shortcuts",
+    "Keyboard-first; screen-reader announcement"
+  ],
+  [
+    "C-04",
+    "AI assistant panel",
+    "All roles",
+    "Context-aware agent interaction",
+    "Collapsed; open; streaming; citation; confirmation; tool-running; error",
+    "Show plan, sources, actions, approvals, tool results; user can stop",
+    "Readable streaming; focus management; clear AI disclosure"
+  ],
+  [
+    "C-05",
+    "Approval / confirmation modal",
+    "All roles",
+    "Confirm consequential external actions",
+    "Review; confirm; cancel; re-auth required",
+    "Show exact target, changes, recipients, cost and reversibility",
+    "Focus trap; explicit button labels"
+  ],
+  [
+    "C-06",
+    "Data table",
+    "Employer, Recruiter, Admin, Institution, Ops",
+    "Manage large datasets",
+    "Loading; empty; filtered; sorted; bulk selection; error",
+    "Pagination; column chooser; saved filters; export permission",
+    "Responsive overflow; semantic headers"
+  ],
+  [
+    "C-07",
+    "Kanban pipeline",
+    "Candidate-facing hiring teams",
+    "Visualize stage progression",
+    "Empty; populated; drag; bulk; mobile list fallback",
+    "Validate allowed transitions; record actor and timestamp",
+    "Keyboard alternative to drag-and-drop"
+  ],
+  [
+    "C-08",
+    "Profile / entity summary card",
+    "Candidate, Employer, Recruiter, Manager, Institution",
+    "Show key facts and actions",
+    "Compact; expanded; restricted; anonymized",
+    "Display only authorized fields; source/verification labels",
+    "Responsive card; no color-only status"
+  ],
+  [
+    "C-09",
+    "Status timeline",
+    "All roles",
+    "Explain progress and history",
+    "Pending; completed; blocked; failed; withdrawn",
+    "Chronological event log; actor/source; timestamp",
+    "Text labels plus icons"
+  ],
+  [
+    "C-10",
+    "Resume/document viewer",
+    "Candidate, Employer, Recruiter, Admin",
+    "Preview documents safely",
+    "PDF; DOCX converted; loading; scan pending; restricted",
+    "Download controls permissioned; malware scan; redaction",
+    "Zoom; keyboard controls; mobile fit"
+  ],
+  [
+    "C-11",
+    "Filter builder",
+    "All search/table roles",
+    "Refine results",
+    "Quick filters; advanced; saved; clear",
+    "Composable filters; count; reset; URL state",
+    "Accessible inputs; mobile sheet"
+  ],
+  [
+    "C-12",
+    "Rich text editor",
+    "Candidate, Employer, Recruiter",
+    "Create profile, job and message content",
+    "Draft; preview; autosave; validation",
+    "Sanitize HTML; character limits; version history",
+    "Keyboard toolbar; plain-text fallback"
+  ],
+  [
+    "C-13",
+    "Calendar & availability picker",
+    "Candidate, Employer, Recruiter, Manager",
+    "Coordinate interviews",
+    "Month/week/list; timezone; unavailable; selected",
+    "Timezone conversion; prevent double booking; calendar sync",
+    "Mobile list view; keyboard date navigation"
+  ],
+  [
+    "C-14",
+    "Notification toast & inbox item",
+    "All roles",
+    "Communicate status and actions",
+    "Success; warning; error; unread; action required",
+    "Avoid duplicate toasts; deep link; persist important alerts",
+    "Announce politely to screen readers"
+  ],
+  [
+    "C-15",
+    "Analytics chart & KPI card",
+    "Employer, Recruiter, Institution, Admin",
+    "Show operational performance",
+    "No data; loading; filtered; comparison",
+    "Metric definition and date range visible; export access",
+    "Text alternatives; avoid color-only encoding"
+  ],
+  [
+    "C-16",
+    "AI match explanation",
+    "Candidate, Employer, Recruiter, Manager",
+    "Explain relevance transparently",
+    "Strong evidence; partial; insufficient data",
+    "Show criteria, evidence, missing info, confidence; no protected-trait inference",
+    "Plain-language explanation; accessible text"
+  ],
+  [
+    "C-17",
+    "Audit/event history",
+    "Employer Admin, Admin, Ops",
+    "Trace changes and access",
+    "Timeline; diff; filtered; export",
+    "Immutable events; actor; timestamp; source; reason",
+    "Readable diff and timestamps"
+  ],
+  [
+    "C-18",
+    "File upload & parsing status",
+    "Candidate, Employer, Institution, Ops",
+    "Upload documents and monitor processing",
+    "Dropzone; progress; parsing; review; failed",
+    "File size/type; malware scan; retry; delete",
+    "Keyboard upload; mobile camera/file picker"
+  ]
+]

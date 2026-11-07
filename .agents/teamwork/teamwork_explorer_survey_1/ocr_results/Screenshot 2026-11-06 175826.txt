@@ -1,0 +1,10 @@
+﻿Education Details
+UG Qualification
+Any UG qualification
+PG Qualification
+Any PG qualification
+Specific UG qualification
+Specific PG qualification
+No UG qualification
+NO PG qualification
++ Add PPG/Doct0rate Qualification

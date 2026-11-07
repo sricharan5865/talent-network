@@ -1,0 +1,74 @@
+[
+  [
+    "Role",
+    "Primary objective",
+    "Core modules",
+    "Typical permissions",
+    "Restricted actions / guardrails",
+    "Primary landing page"
+  ],
+  [
+    "Candidate",
+    "Find suitable work and manage career progression",
+    "Profile; Job Search; Applications; Interviews; Offers; Career Tools; Settings",
+    "Manage own profile, preferences, applications and communications",
+    "Cannot access employer notes, other candidates, or employer-only data; external actions require explicit confirmation",
+    "Candidate dashboard"
+  ],
+  [
+    "Employer / Company Admin",
+    "Hire talent and manage company hiring operations",
+    "Company; Team; Jobs; Talent; Communications; Scheduling; Offers; Analytics; Billing",
+    "Manage company workspace and assigned hiring records",
+    "Tenant isolation; only authorized users publish jobs, issue offers, manage billing",
+    "Employer dashboard"
+  ],
+  [
+    "Recruiter / Agency Recruiter",
+    "Deliver talent to client requisitions and manage placements",
+    "Clients; Requisitions; Sourcing; Candidate CRM; Outreach; Shortlists; Placements; Reports",
+    "Access assigned clients/roles and candidate records under lawful basis/consent",
+    "Client-specific data partitioning; do-not-contact; no unauthorized candidate sharing",
+    "Recruiter workspace"
+  ],
+  [
+    "Hiring Manager / Interviewer",
+    "Define role needs and make evidence-based hiring decisions",
+    "Requisitions; Candidate Review; Interview Plan; Scorecards; Debrief",
+    "Review assigned requisitions/candidates; submit scorecards and decisions",
+    "No billing/admin access; candidate data limited to assigned roles; structured job-related evaluation",
+    "Hiring manager dashboard"
+  ],
+  [
+    "Institution / Placement Officer",
+    "Improve student readiness and coordinate campus hiring",
+    "Cohorts; Student Readiness; Placement Drives; Applications; Analytics",
+    "Manage institution cohorts and consented student records",
+    "Student data not shared with employers without consent; cohort analytics privacy thresholds",
+    "Placement dashboard"
+  ],
+  [
+    "Referral Partner",
+    "Refer candidates/employers and track attribution",
+    "Partner Dashboard; Campaigns; Referrals; Rewards",
+    "Create referral links and view permitted referral statuses",
+    "No access to candidate profile/application details without consent; payout changes audited",
+    "Partner dashboard"
+  ],
+  [
+    "Platform Operations / Support",
+    "Resolve issues and maintain service quality",
+    "Verification Ops; Incident Management; Content Quality; Support; Data Correction",
+    "Scoped operational access with case assignment",
+    "Sensitive fields masked; break-glass access logged; no unrestricted candidate browsing",
+    "Operations dashboard"
+  ],
+  [
+    "Platform Admin",
+    "Govern platform, tenants, security, billing and AI systems",
+    "Identity; Tenants; Moderation; Trust & Safety; Billing; Configuration; AI Governance; Audit; Data",
+    "Privileged platform-wide access according to admin scope",
+    "MFA; least privilege; dual approval for high-risk actions; immutable audit trail",
+    "Admin dashboard"
+  ]
+]
